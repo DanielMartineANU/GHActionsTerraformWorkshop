@@ -3,10 +3,10 @@
 
 
 # Define variable for display name
-DISPLAY_NAME="<uniquename>-<branch>-oidc"
+DISPLAY_NAME="danielterraform-master-oidc"
 # Define variables for name and subject
-FEDERATED_IDENTITY_NAME="<uniquename>-<branch>-federated-identity"
-FEDERATED_IDENTITY_SUBJECT="repo:<account>/<reponame>:ref:refs/heads/<branch>"
+FEDERATED_IDENTITY_NAME="danielterraform-master-federated-identity"
+FEDERATED_IDENTITY_SUBJECT="repo:DanielMartineANU/GHActionsTerraformWorkshop:ref:refs/heads/master"
 
 
 AZURE_TENANT=$(az account show -o tsv --query tenantId)
